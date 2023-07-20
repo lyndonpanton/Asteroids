@@ -15,7 +15,7 @@ public class BasicGame {
         asteroids = new ArrayList<>();
 
         for (int i = 0; i < N_INITIAL_ASTEROIDS; i++) {
-            asteroids.add(BasicAsteroid.makeRandomAsteroid());
+            asteroids.add(new BasicAsteroid());
         }
     }
     public static void main(String[] args) throws InterruptedException {

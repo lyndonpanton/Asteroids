@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game1/BasicAsteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game1/BasicAsteroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game1/BasicGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game1/BasicGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game1/BasicView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game1/BasicView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game1/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game1/Constants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

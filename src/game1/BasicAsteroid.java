@@ -13,6 +13,15 @@ public class BasicAsteroid {
     private double x, y;
     private double vx, vy;
 
+    public BasicAsteroid() {
+        BasicAsteroid copyAsteroid = makeRandomAsteroid();
+
+        this.x = copyAsteroid.x;
+        this.y = copyAsteroid.y;
+        this.vx = copyAsteroid.vx;
+        this.vy = copyAsteroid.vy;
+    }
+
     public BasicAsteroid(double x, double y, double vx, double vy) {
         this.x = x;
         this.y = y;
