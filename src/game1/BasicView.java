@@ -14,10 +14,14 @@ public class BasicView extends JComponent {
 
     @Override
     public void paintComponent(Graphics g) {
-        Graphics2D g2d = (Graphics2D) g;
+        Graphics2D g2D = (Graphics2D) g;
 
-        g.setColor(BG_COLOR);
-        g.fillRect(0, 0, getWidth(), getHeight());
+        g2D.setColor(BG_COLOR);
+        g2D.fillRect(0, 0, getWidth(), getHeight());
+
+        for (BasicAsteroid asteroid: game.asteroids) {
+            asteroid.draw(g2D);
+        }
     }
 
     @Override

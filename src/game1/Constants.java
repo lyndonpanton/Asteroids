@@ -8,4 +8,8 @@ public class Constants {
     public static final Dimension FRAME_SIZE = new Dimension(
             Constants.FRAME_WIDTH, Constants.FRAME_HEIGHT
     );
+    // milliseconds
+    public static final int DELAY = 20;
+    // seconds
+    public static final double DT = DELAY / 1000.0;
 }
